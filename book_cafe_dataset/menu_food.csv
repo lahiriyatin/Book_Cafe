@@ -1,0 +1,11 @@
+food_id,food_name,category,price,availability_status
+1,Espresso,Coffee,12,Available
+2,Cappuccino,Coffee,16,Available
+3,Latte,Coffee,15,Available
+4,Green Tea,Tea,13,Available
+5,Cheese Sandwich,Snacks,20,Available
+6,Chocolate Muffin,Dessert,18,Available
+7,Blueberry Pancake,Dessert,21,Available
+8,Veg Burger,Snacks,25,Available
+9,Cold Coffee,Beverage,17,Available
+10,Brownie,Dessert,19,Available

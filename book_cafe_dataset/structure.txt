@@ -1,0 +1,27 @@
+Customers.csv
+
+customer_id	name	gender	age	city	join_date	membership_tier
+
+-------------------------------------------------------------------------------------
+
+orders.csv
+
+order_id	customer_id	order_date	payment_method	branch
+
+-------------------------------------------------------------------------------------
+
+order_items.csv
+
+order_item_id	order_id	item_type	item_id	quantity
+
+-------------------------------------------------------------------------------------
+
+menu_food.csv
+
+food_id	food_name	category	price	availability_status
+
+-------------------------------------------------------------------------------------
+
+menu_books.csv
+
+book_id	book_title	author	genre	price	availability_status
