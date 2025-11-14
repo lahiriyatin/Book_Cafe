@@ -390,7 +390,7 @@ HAVING
 
 
 
---High Level--
+--Bonus Questions--
 
 --Using a window function, rank customers by their total spend, and show the top 10 with their ranks.
 
@@ -482,12 +482,13 @@ FROM (
   JOIN order_items oi ON o.order_id = oi.order_id
   JOIN menu_books b ON oi.item_id = b.book_id AND oi.item_type = 'book'
   GROUP BY c.customer_id, c.name
-) t
+)
 WHERE customer_avg > cafe_avg
 ORDER BY customer_avg DESC;
 
 
 --Find the best-selling combination of book and food (pair ordered together most often).
+
 
 
 
